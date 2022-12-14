@@ -200,8 +200,8 @@ SELECT  'TXT_KEY_BUILDING_DEFENSE_SATELLITE_HELP',
 SELECT  'TXT_KEY_BUILDING_DEFENSE_SATELLITE_STRATEGY',
         '{TXT_KEY_BUILDING_DEFENSE_SATELLITE} is a late-game building which provides an Empire-wide [ICON_STRENGTH] Combat Strength bonus, and has the ability to defend against Air Units effectively. '||
         'Increases the City''s [ICON_RANGE_STRENGTH] Ranged Strike Range by 2 and Damage by 5%, so it covers the whole 5-tile radius around the City, and also inflicts extra damage to the enemy. It allows the City to Ranged Strike indirectly, ignoring Line of Sight.'||
-        'Also have a 20% chance to detonate nuclear weapons early, which destroys Atomic Bombs outright and makes Nuclear Missiles only as effective as Atomic Bombs (with total of 70% chance when stacked with {TXT_KEY_BUILDING_BOMB_SHELTER}). '||
-        'The City must already possess a {TXT_KEY_BUILDING_MILITARY_BASE} before {TXT_KEY_BUILDING_DEFENSE_SATELLITE} can be constructed. '||
+        'Also have a 20% chance to detonate nuclear weapons early, which destroys Atomic Bombs outright and makes Nuclear Missiles only as effective as Atomic Bombs (with total of 70% chance when stacked with {TXT_KEY_BUILDING_BOMB_SHELTER}).[NEWLINE]'||
+        '[NEWLINE]The City must already possess a {TXT_KEY_BUILDING_MILITARY_BASE} before {TXT_KEY_BUILDING_DEFENSE_SATELLITE} can be constructed. '||
         'Maximum of ' || (SELECT MaxPlayerInstances FROM BuildingClasses WHERE Type = 'BUILDINGCLASS_DEFENSE_SATELLITE') || ' of these satellites in your Empire, so make sure to place these in strategic cities.' UNION ALL
 SELECT  'TXT_KEY_CIV5_BUILDINGS_DEFENSE_SATELLITE_TEXT',
         '{TXT_KEY_BUILDING_DEFENSE_SATELLITE} are one of the types of military reconnaissance satellite designed to help safeguard cities by providing real-time data on the position of nearby enemy forces and their tactical capability. '||
