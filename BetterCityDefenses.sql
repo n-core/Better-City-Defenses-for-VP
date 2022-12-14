@@ -191,7 +191,9 @@ INSERT  OR REPLACE INTO Language_en_US (Tag, Text)
 SELECT  'TXT_KEY_BUILDING_DEFENSE_SATELLITE',
         'Defense Satellites' UNION ALL
 SELECT  'TXT_KEY_BUILDING_DEFENSE_SATELLITE_HELP',
-        '+1%[ICON_STRENGTH] Combat Strength for all Cities. All owned {TXT_KEY_BUILDING_DEFENSE_SATELLITE} gain +2 [ICON_RESEARCH] Science. +15[ICON_STRENGTH] Damage to Air Units during Air Strikes on City. '||
+        '+1%[ICON_STRENGTH] Combat Strength for all Cities.[NEWLINE]
+        [NEWLINE]All owned {TXT_KEY_BUILDING_DEFENSE_SATELLITE} gain +2 [ICON_RESEARCH] Science.[NEWLINE]
+        [NEWLINE]+15[ICON_STRENGTH] Damage to Air Units during Air Strikes on City. '||
         'Increase City''s [ICON_RANGE_STRENGTH] Ranged Strike Range by 2 and [ICON_RANGE_STRENGTH] Ranged Strike Damage by 5%. Allows the City''s [ICON_RANGE_STRENGTH] Ranged Strike to ignore Line of Sight.[NEWLINE]'||
         '[NEWLINE]20% chance to detonate nuclear weapons [COLOR_POSITIVE_TEXT]early[ENDCOLOR]. Early detonations destroy Atomic Bombs outright and make Nuclear Missiles only as effective as Atomic Bombs.[NEWLINE]'||
         '[NEWLINE]Requires 1 [ICON_RES_ALUMINUM] Aluminum.[NEWLINE]'||
@@ -254,7 +256,8 @@ INSERT  OR REPLACE INTO Language_en_US (Tag, Text)
 SELECT  'TXT_KEY_BUILDING_SATELLITE_NETWORK',
         'Satellite Network Headquarters' UNION ALL
 SELECT  'TXT_KEY_BUILDING_SATELLITE_NETWORK_HELP',
-        '+10%[ICON_STRENGTH] Combat Strength for all Cities. +1 [ICON_PRODUCTION] Production and +2 [ICON_RESEARCH] Science to all owned post-Industrial defense buildings. +3 [ICON_RESEARCH] Science from all owned {TXT_KEY_BUILDING_DEFENSE_SATELLITE}.[NEWLINE]'||
+        '+10%[ICON_STRENGTH] Combat Strength for all Cities.[NEWLINE]
+        [NEWLINE]+1 [ICON_PRODUCTION] Production and +2 [ICON_RESEARCH] Science to all owned post-Industrial defense buildings. +3 [ICON_RESEARCH] Science from all owned {TXT_KEY_BUILDING_DEFENSE_SATELLITE}.[NEWLINE]'||
         '[NEWLINE]The [ICON_PRODUCTION] Production Cost and [ICON_CITIZEN] Population Requirements increase based on the number of cities you own.' UNION ALL
 SELECT  'TXT_KEY_BUILDING_SATELLITE_NETWORK_STRATEGY',
         'With its large boost to Empire-wide [ICON_STRENGTH] Combat Strength, the {TXT_KEY_BUILDING_SATELLITE_NETWORK} is a great choice to help secure your cities when dealing with militaristic neighbors. '||

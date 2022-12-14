@@ -7,8 +7,47 @@
     <Guid>f4c13f93-32b1-47c5-8e76-9d3b57f06154</Guid>
     <ModVersion>6</ModVersion>
     <Stability>Stable</Stability>
-    <Teaser>Originally made by Tofusojo, overhauled for VP by N.Core</Teaser>
-    <Description>Originally made by Tofusojo, overhauled for VP by N.Core</Description>
+    <Teaser>City defense rebalance and added new defense buildings!</Teaser>
+    <Description>Originally made by Tofusojo, overhauled for [COLOR:225:180:90:255]Vox Populi[ENDCOLOR] by [COLOR:40:250:140:255]N.Core[ENDCOLOR].
+[NEWLINE]
+[NEWLINE]Defense buildings rebalance!
+[NEWLINE][TAB]All existing defense buildings had its Combat Strength, Hit Points, and other stats reduced. So, now city defense upgrade become exponential so it's easier to attack and conquer at early eras and harder at later eras.
+[NEWLINE]
+[NEWLINE]Added three new defense buildings and one new national wonder:
+[NEWLINE][ICON_BULLET] Palisades
+[NEWLINE][TAB]- Unlocked at [COLOR_CYAN]Agriculture[ENDCOLOR].
+[NEWLINE][TAB]- Walls now require [COLOR_POSITIVE_TEXT]Palisades[ENDCOLOR].
+[NEWLINE][TAB]- +4[ICON_STRENGTH] CS and +25 HP.
+[NEWLINE][TAB]- [ICON_SILVER_FIST] +5% Military Supply based City's population.
+[NEWLINE][TAB]- [ICON_CITY_STATE] Empire Size Modifier is reduced by 5% in the City.
+[NEWLINE]
+[NEWLINE][ICON_BULLET] Weapons Depot
+[NEWLINE][TAB]- Unlocked at [COLOR_CYAN]Combined Arms[ENDCOLOR].
+[NEWLINE][TAB]- Requires [COLOR_POSITIVE_TEXT]Arsenal[ENDCOLOR].
+[NEWLINE][TAB]- +10[ICON_STRENGTH] CS and +125 HP.
+[NEWLINE][TAB]- +10[ICON_STRENGTH] CS to air strike defense.
+[NEWLINE][TAB]- +15 Heal rate for units in City.
+[NEWLINE][TAB]- [ICON_SILVER_FIST] +30% Military Supply based City's population.
+[NEWLINE][TAB]- [ICON_CITY_STATE] Empire Size Modifier is reduced by 5% in the City.
+[NEWLINE]
+[NEWLINE][ICON_BULLET] Defense Satellites
+[NEWLINE][TAB]- Unlocked at [COLOR_CYAN]Satellites[ENDCOLOR].
+[NEWLINE][TAB]- Requires [COLOR_POSITIVE_TEXT]Military Base[ENDCOLOR].
+[NEWLINE][TAB]- +1%[ICON_STRENGTH] CS in all cities.
+[NEWLINE][TAB]- +2[ICON_RANGE_STRENGTH] City Range Strike.
+[NEWLINE][TAB]- +5%[ICON_RANGE_STRENGTH] RCS when attacking enemy units.
+[NEWLINE][TAB]- +20% Nuke interception chance.
+[NEWLINE][TAB]- All owned Defense Satellites gain +2 [ICON_RESEARCH] Science.
+[NEWLINE][TAB]- Maximum of 5 of these satellites in the Empire.
+[NEWLINE][TAB]- [ICON_PRODUCTION] Production cost increases based on number of owned cities.
+[NEWLINE][TAB]- Requires 1 [ICON_RES_ALUMINUM] Aluminum.
+[NEWLINE]
+[NEWLINE][ICON_BULLET] Satellite Network Headquarters
+[NEWLINE][TAB]- Unlocked at [COLOR_CYAN]Satellites[ENDCOLOR].
+[NEWLINE][TAB]- Requires [COLOR_POSITIVE_TEXT]Defense Satellites[ENDCOLOR].
+[NEWLINE][TAB]- +10%[ICON_STRENGTH] CS in all cities.
+[NEWLINE][TAB]- +1 [ICON_PRODUCTION] Production and +2 [ICON_RESEARCH] Science to all owned post-Industrial defense buildings. +3 [ICON_RESEARCH] Science from all owned Defense Satellites.
+[NEWLINE][TAB]- The [ICON_PRODUCTION] Production Cost and [ICON_CITIZEN] Population Requirements increase based on the number of cities you own.</Description>
     <Authors>Tofusojo, N.Core</Authors>
     <SpecialThanks>Better City Defenses for VP</SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
@@ -19,7 +58,15 @@
     <SupportsMac>true</SupportsMac>
     <AssemblyName>Better City Defense for VP</AssemblyName>
     <RootNamespace>Better City Defense for VP</RootNamespace>
-    <ModReferences />
+    <ModReferences>
+      <Association>
+        <Type>Mod</Type>
+        <Name>More Unique Components for VP</Name>
+        <Id>259c3593-34dd-4fdd-bd7d-8ed67cc0797c</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+    </ModReferences>
     <ModDependencies>
       <Association xmlns="">
         <Type>Mod</Type>
